@@ -27,6 +27,42 @@
 </head>
 
 <body>
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md py-4 px-8 md:px-16">
+    <div class="max-w-screen-xl mx-auto flex justify-between items-center">
+      <!-- Logo -->
+      <div class="text-3xl font-extrabold text-orange-500">
+        <a href="#">Tea House</a>
+      </div>
+
+      <!-- Links (hidden on small screens) -->
+      <div class="hidden md:flex space-x-8 text-gray-700 font-medium">
+        <a href="#" class="hover:text-orange-500 transition">Home</a>
+        <a href="#about" class="hover:text-orange-500 transition">About</a>
+        <a href="#products" class="hover:text-orange-500 transition">Products</a>
+        <a href="#news" class="hover:text-orange-500 transition">News</a>
+        <a href="#contact" class="hover:text-orange-500 transition">Contact</a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="menu-toggle" class="md:hidden text-gray-700 focus:outline-none" aria-label="Toggle Navigation">
+        <i class="fa-solid fa-bars text-2xl"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Menu (hidden by default) -->
+    <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-4 text-gray-700 font-medium">
+      <a href="#" class="block hover:text-orange-500 transition">Home</a>
+      <a href="#about" class="block hover:text-orange-500 transition">About</a>
+      <a href="#products" class="block hover:text-orange-500 transition">Products</a>
+      <a href="#news" class="block hover:text-orange-500 transition">News</a>
+      <a href="#contact" class="block hover:text-orange-500 transition">Contact</a>
+    </div>
+  </nav>
+
+
+
   <!-- Main Content -->
   <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
     <!-- Header Section -->
